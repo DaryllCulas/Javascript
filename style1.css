@@ -1,0 +1,22 @@
+body {
+  background-color: lightgreen;
+}
+.form-container {
+  background-color: lightblue;
+  border: 2px solid black;
+  width: 30%;
+  margin-top: 150px;
+  
+}
+form {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+input[type="text" i] {
+  padding: 2px 2px;
+  border: 2px solid black;
+}
+input[type="button" i]:hover {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Act1.2</title>
+</head>
+<body>
+  <p><strong>Create a JavaScript object named Person with properties for first name, last
+    name, age, gender, course and email. Set the values for each property to your
+    own credentials. Use JavaScript to display the person object in the browser.
+    Make sure to include appropriate headings or labels to indicate each property
+    in the object.</strong></p>
+ <form action="" method="post">
+  <label>First Name</label>
+    <input type="text" name="firstName" id="First_name" placeholder="Enter your First name" required/>
+    <br>
+    <br>
+  <label>Last Name</label>
+    <input type="text" name="lastName" id="Last_name" placeholder="Enter your Last name" required/>
+    <br>
+    <br>
+  <label>Age</label>
+    <input type="text" name="age" id="aGe" placeholder="Enter your Age" required/>
+    <br>
+    <br>
+  <label>Gender</label>
+    <select id="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+    </select>
+    <br>
+    <br>
+  <label>Course</label>
+    <select id="course">
+      <option value="BSIT">BSIT</option>
+      <option value="BSCS">BSCS</option>
+      <option value="BSPsych">BSPSYCH</option>
+      <option value="BSED-Math">BSED-Math</option>
+      <option value="BSED-Eng">BSED-Eng</option>
+      <option value="BSCRIM">BSCRIM</option>
+      <option value="BSBM">BSBM</option>
+      <option value="BSHM">BSHM</option>
+    </select>
+    <br>
+    <br>
+  <label>Email</label>
+    <input type="text" name="email" id="emailAdd" placeholder="Enter your email address" required/>
+    <br>
+    <br>
+    <input type="button" value="Submit" onclick="submitInfo()">
+
+ </form>
+ <script src="submitPersonalInfo.js"></script>
+</body>
+</html>

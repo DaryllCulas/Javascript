@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Act1.1-Login Form</title>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <p><strong>1. Create a login form using HTML that includes fields for a username and
+    password, and a submit button. Make sure to properly label each field using the
+    &lt;label&gt; tag and set the input type for the password field to &#39;password&#39;.
+    Additionally, make sure the form action is set to submit to the appropriate
+    location on the server.</strong></p>
+  <center>
+    <div class="form-container">
+        <form class method="post">
+            <label> Username </label>
+              <input type="text" name="User_name" id="userName" placeholder="Enter Your Username:" required/>
+              <span id="usernameError" style="color: red; display: none;">Please insert your username!</span>
+                <br>
+                <br>
+            <label> Password </label>
+              <input type="password" name="Pass_word" id="passWord" placeholder="Enter your Password:" required/>
+              <span id="passwordError" style="color: red; display: none;">Please insert your password</span>
+                <br>
+                <br>
+              <input type="button" value="Submit" onclick="checkForm()">
+        </form>
+    </div>
+</center>
+
+</body>
+</html>
