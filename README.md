@@ -1,2 +1,2 @@
 # Javascript
-This self-study outputs only
+This is self-study and school activity outputs only
