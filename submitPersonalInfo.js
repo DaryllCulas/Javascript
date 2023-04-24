@@ -47,7 +47,7 @@ function submitInfo() {
   
           btn.onclick = function () {
             alert(`Very good, ${personalInfo.Firstname}!`);
-            window.href.location = "Act1.3.html";
+            window.location.href = "Act1.3.html";
           }
       
       }
