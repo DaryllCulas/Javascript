@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissor</title>
+   <script src="Rock_Paper_Scissor.js">
+    /*
+          -Falsy Values = false 0 '' NaN undefined null 
+        --------------------------------------------------
+          -Ternary Operator?: 
+
+                Shortcut => true ? 'Truthy':'falsy'
+                output: Truthy  
+
+                Original =>  if(true) {
+                               'Truthy';
+                              }
+                             else {
+                                'falsy';
+                              }
+                      
+ 
+        ---------------------------------------------------------------
+          -Guard Operator(AND &&) - Short Circuit Evaluation
+
+                false && console.log('Hello');
+                  output: falsy
+                  
+                const message = false && 'hello world';
+                console.log(message);
+                  output: false
+
+            shortcut => let message = 5 && 'hello world';
+                          console.log(message);
+                            output: hello world
+
+            Original => let message;
+                        if(condition) {
+                          message - 'hello world';
+                        }
+        ----------------------------------------------------------------
+          -Default Operator (OR ||) - short early
+                
+            shortcut => const currency = 'EUR' || 'USD';
+                        console.log(currency);
+                            output: USD
+
+            shortcut => const currency = undefined || 'USD';
+                        console.log(currency);
+                            output: USD
+
+            Original => if(!condition) {
+                            currency = 'USD';
+                          }
+        */
+  </script> 
+</head>
+<body>
+  <p><strong>ROCK PAPER SCISSOR</strong></p>
+    <button onclick = "playGame('ROCK');">ROCK</button>
+    <button onclick ="playGame('PAPER')">PAPER</button>
+    <button onclick ="playGame('SCISSOR');"> SCISSOR</button>
+ 
+</body>
+</html>
