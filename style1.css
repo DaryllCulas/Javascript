@@ -20,3 +20,14 @@ input[type="button" i]:hover {
   background-color: black;
   color: white;
 }
+input[type="password" i] {
+  border: 2px solid black;
+
+  }
+
+@media only screen and (max-width: 400px) {
+ * {
+  width: auto;
+ }
+  
+}
