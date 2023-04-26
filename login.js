@@ -32,7 +32,7 @@ function checkForm() {
         // If username and password has no whitespace, it return true and the next block will execute its another if-else statement 
         if(username.trim() !== "" && password !== "") { 
           // if username and password are matched then it returns true.
-            if(username === "daryll" && password === "admin123") {
+            if(username === "admin" && password === "admin123") {
               // If they match, it returns true and it will show alert and also, it will redirect to the another location
               alert("Login Successfully");
               alert(`Welcome, ${username}`); // we use string template here to display the value of username
