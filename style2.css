@@ -1,0 +1,13 @@
+body {
+  background-color: skyblue;
+}
+form {
+  background-color: antiquewhite;
+  width: 40%;
+  margin-top: 150px;
+  padding: 60px 60px;
+  border: 2px solid black;
+}
+label {
+  font-weight: bold;
+}

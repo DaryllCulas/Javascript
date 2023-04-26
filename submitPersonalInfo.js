@@ -1,5 +1,7 @@
 function submitInfo() {
- 
+  
+
+
   // initializing this object's properties and values
     const personalInfo = {
       Firstname: document.getElementById("First_name").value,
@@ -37,6 +39,40 @@ function submitInfo() {
       document.write(`<p><strong>Gender </strong> ${personalInfo.Gender}</p>`);
       document.write(`<p><strong>Course </strong> ${personalInfo.Course}</p>`);
       document.write(`<p><strong>Email </strong> ${personalInfo.Email}</p>`);
+
+
+      // We use DOM elements to modify the design when redirection happens
+      const linkElement = document.createElement('link');
+      linkElement.rel= "stylesheet";
+      linkElement.type = "text/css";
+      linkElement.href = "./style2.css";
+      document.head.appendChild(linkElement);
+
+
+      const styleElement = document.createElement('style');
+      styleElement.textContent = `
+      
+      body {
+        text-align: center;
+        margin-top: 200px;
+        background-color: #FF66FF;
+      }
+      p {
+        font-size: 30px;
+        
+      }
+      button {
+        padding: 20px 20px;
+        font-size: 20pt;
+        font-weight: bold;
+        border: 2px solid;
+      }
+      
+      `;
+      document.head.appendChild(styleElement);
+
+
+
   
   
       // For another webpage when the output has been showed, the user can click below the output to redirect onto another webpage
