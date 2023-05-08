@@ -1,4 +1,4 @@
-var navLinks = document.querySelectorAll("nav nav-links li a");
+var navLinks = document.querySelectorAll(".nav-links li a");
 
 for (var i = 0; i < navLinks.length; i++) {
   navLinks[i].addEventListener("click", function() {
