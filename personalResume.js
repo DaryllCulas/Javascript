@@ -1,3 +1,5 @@
+
+/* Hover effects that stays highlighted and active its lists when selected */
 var navLinks = document.querySelectorAll(".nav-links li a");
 
 for (var i = 0; i < navLinks.length; i++) {
