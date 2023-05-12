@@ -9,6 +9,7 @@ for (var i = 0; i < navLinks.length; i++) {
       navLinks[j].classList.remove("active");
     }
     this.classList.add("active");
+   
   });
 
   
