@@ -104,7 +104,8 @@ h1 {
 .HomeParagraph {
   font-size: 15pt;
   line-height: 2;
-  
+  margin-left: 10px;
+  margin-right: 10px;
   
 }
 
