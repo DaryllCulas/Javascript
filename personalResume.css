@@ -6,7 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
- background-color: black;
+
+background-color: black;
 
  
   margin: 0;
@@ -27,6 +28,7 @@ nav {
   border: 4px solid rgb(9, 112, 40);
   padding: 16px;
   height: auto;
+ 
 }
 
 
