@@ -164,7 +164,7 @@ h1 {
 /*----------FOR CONTAINER(Bootstrap)-----------*/
 .container {
   max-width: 80%;
-  opacity: 0.9;
+  opacity: 0.8;
   z-index: 2;
   padding-bottom: 5%;
 }
@@ -173,7 +173,7 @@ h1 {
 #ProfilePic {
   height: 40%;
   width: 35%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 3);
   display: block;
   margin: 0 auto;
 }
