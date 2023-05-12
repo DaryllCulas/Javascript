@@ -2,6 +2,7 @@
 /* Hover effects that stays highlighted and active its lists when selected */
 var navLinks = document.querySelectorAll(".nav-links li a");
 
+
 for (var i = 0; i < navLinks.length; i++) {
   navLinks[i].addEventListener("click", function() {
     for (var j = 0; j < navLinks.length; j++) {
@@ -9,4 +10,6 @@ for (var i = 0; i < navLinks.length; i++) {
     }
     this.classList.add("active");
   });
+
+  
 }

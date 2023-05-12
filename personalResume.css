@@ -45,10 +45,10 @@ nav {
   font-weight: bold;
 
 }
-.header-logo a:hover {
+.Header-logo a:hover, .Header-logo a:active {
   text-shadow: 3px 3px 3px yellowgreen;
   color: yellow;
-  background-color: yellow;
+  
 }
 
 .nav-links {
@@ -153,4 +153,11 @@ h1 {
   max-width: 80%;
   opacity: 0.9;
   z-index: 2;
+}
+#ProfilePic {
+  height: 40%;
+  width: 40%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 0 auto;
 }
