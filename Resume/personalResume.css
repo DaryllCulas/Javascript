@@ -122,6 +122,19 @@ h1 {
     line-height: 2;
 }
 
+/*---------------------EDUCATION-----------------------*/
+.Education-container {
+  background-color: white;
+  opacity: 0.850;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.EducationParagraph {
+    margin-top: 10px;
+    font-size: 13pt;
+    line-height: 2;
+}
+
 /*----------------- PROJECTS --------------------------*/
 .ProjectsContainer {
   background-color: gray;
