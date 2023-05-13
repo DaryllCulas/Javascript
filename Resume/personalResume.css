@@ -84,10 +84,14 @@ nav {
   color: yellow;
   text-shadow: 3px 2px 4px yellow;
 }
+section {
+  margin-bottom: 20px;
+}
 
 /*----------------- HOME --------------------------*/
 .Home-container {
-  background-color: gray;
+  background-color: white;
+  opacity: 0.850;
   height: auto;
   text-align: center;
   padding-bottom: 10%;
@@ -137,7 +141,7 @@ h1 {
 
 /*----------------- PROJECTS --------------------------*/
 .ProjectsContainer {
-  background-color: gray;
+  background-color: white;
   height: auto;
   text-align: center;
   padding-bottom: 5%;
@@ -155,7 +159,7 @@ h1 {
   line-height: 2;
 }
 .Contact-container {
-  background-color: gray;
+  background-color: white;
   height: auto;
   text-align: center;
   padding-bottom: 5%;
