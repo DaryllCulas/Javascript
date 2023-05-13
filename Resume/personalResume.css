@@ -4,6 +4,8 @@
 }
 html {
   scroll-behavior: smooth;
+  letter-spacing: 1.5px;
+  
 }
 body {
 
@@ -91,7 +93,7 @@ section {
 /*----------------- HOME --------------------------*/
 .Home-container {
   background-color: white;
-  opacity: 0.850;
+  opacity: 0.900;
   height: auto;
   text-align: center;
   padding-bottom: 10%;
@@ -136,12 +138,13 @@ h1 {
 .EducationParagraph {
     margin-top: 10px;
     font-size: 13pt;
-    line-height: 2;
+    line-height: 5;
 }
 
-/*----------------- PROJECTS --------------------------*/
+/*----------------- SKILLS --------------------------*/
 .ProjectsContainer {
   background-color: white;
+  opacity: 0.850;
   height: auto;
   text-align: center;
   padding-bottom: 5%;
@@ -164,6 +167,7 @@ h1 {
   text-align: center;
   padding-bottom: 5%;
   padding-top: 5%;
+  opacity: 0.850;
 }
 
 /*--------------------- OTHERS --------------------------------*/
@@ -200,13 +204,11 @@ h1 {
 
 
 table {
-  width: 60%;
+  width: 51%;
+  margin-right: 30%; 
 }
-tr, td {
-  padding: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+
+
 
 
 
