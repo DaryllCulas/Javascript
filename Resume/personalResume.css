@@ -42,12 +42,14 @@ nav {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+  
+
 }
 .Header-logo a {
   text-decoration: none;
   color: white;
   font-weight: bold;
-
+ 
 }
 .Header-logo a:hover, .Header-logo a.active {
   text-shadow: 3px 3px 3px yellowgreen;
@@ -60,6 +62,7 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
+ 
 }
 
 .nav-links li {
@@ -73,6 +76,7 @@ nav {
   font-weight: bold;
   text-transform: uppercase;
   margin-left: 50px;
+ 
 }
 
 .nav-links a:hover {
@@ -189,6 +193,7 @@ h1 {
   opacity: 0.8;
   z-index: 2;
   padding-bottom: 5%;
+  animation: float 6s ease-in-out infinite;
 
 }
 
@@ -203,6 +208,9 @@ h1 {
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
 }
+
+
+/*----------------------Customizing float element in Img----------------------------------*/
 @keyframes float {
 	0% {
 		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
@@ -219,13 +227,16 @@ h1 {
 }
 
 
+/*------------------------------Table for Education---------------------------------------------------*/
 
 table {
   width: 51%;
   margin-right: 20%; 
 }
 
-
+img {
+  border-radius: 50%;
+}
 
 
 
