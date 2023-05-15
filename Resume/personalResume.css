@@ -236,6 +236,7 @@ label {
   padding: 20px 50px;
   font-family: 'PressStart2P-Regular';
   box-shadow: 2px 2px 2px 2px black;
+  cursor: pointer;
 }
 #submitBtn:active {
   transform: translateY(-2px);
