@@ -212,6 +212,8 @@ ul {
   border-radius: 30px;
 }
 
+
+
 /*--------------------- TECHNOLOGIES --------------------------------*/
 .Others-container {
   background-color: white;
@@ -228,7 +230,11 @@ ul {
 .TechTable {
   margin-left: 250px;
 }
-
+.TechTable tr td:hover {
+  animation: float 6s ease-in-out infinite;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+  transition: 1s;
+}
 
 /*----------FOR CONTAINER(Bootstrap)-----------*/
 .container {
