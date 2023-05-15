@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 @font-face {
   font-family: 'PressStart2P-Regular';
   src: url('./Press_Start_2P/PressStart2P-Regular.ttf')format('truetype');
@@ -234,6 +237,7 @@ ul {
   animation: float 6s ease-in-out infinite;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
   transition: 1s;
+  border-radius: 25%;
 }
 
 /*----------FOR CONTAINER(Bootstrap)-----------*/
