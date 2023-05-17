@@ -29,6 +29,9 @@ function checkForm() {
     else {
         passworderror.style.display = "none";
     }
+
+
+    
         // If username and password has no whitespace, it return true and the next block will execute its another if-else statement 
         if(username.trim() !== "" && password !== "") { 
           // if username and password are matched then it returns true.
